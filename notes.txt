@@ -1,0 +1,20 @@
+
+Game:
+    ServerSentEvents: [
+        init: {
+            Includes a Pakcet-object which contains:
+                playername, World
+        }
+        update: {
+            Contains gameplay events like player movement and world updates.
+        }
+        kick: { - }
+    ]
+    ClientSentEvents: [
+        update: {
+            Contains gameplay events like player movement and world updates.
+        }
+        disconnect: { - }
+    ]
+
+

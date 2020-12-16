@@ -1,0 +1,9 @@
+{
+    "hostname": "platformer",
+	"port": 8000,
+    "root": "./site/static",
+    "scripts": "./site/scripts",
+    "endings": [
+        "index.html", "/index.html", ".html"
+    ]
+}
